@@ -1,58 +1,102 @@
 🎯 Vue d'ensemble
+
 FinWise est une application web moderne de gestion financière personnelle qui utilise l'intelligence artificielle pour automatiser la catégorisation des transactions, fournir des insights personnalisés et aider les utilisateurs à optimiser leurs finances.
 ✨ Fonctionnalités principales
 
 🤖 Catégorisation automatique par IA - Classification intelligente des transactions
+
 📊 Dashboard interactif - Visualisations dynamiques de vos finances
+
 📱 Interface responsive - Compatible mobile, tablette et desktop
+
 🔒 Sécurité renforcée - Chiffrement des données et authentification JWT
+
 📈 Gestion des budgets - Suivi et alertes automatiques
+
 📄 Import intelligent - Support CSV, OFX, QIF avec détection automatique
+
 🔍 Détection d'anomalies - Identification des dépenses inhabituelles
+
 📊 Rapports détaillés - Analyses mensuelles et tendances
 
 🏗️ Architecture
+
 Stack technique
 
 Frontend: Angular 18+ avec TypeScript
+
 Backend: Spring Boot 3.x avec Java 21
+
 Base de données: PostgreSQL 15+
+
 IA/ML: API OpenAI / Modèles locaux
+
 Sécurité: Spring Security + JWT
+
 Cache: Redis (optionnel)
 
+
 Structure du projet
+
 finwise/
+
 ├── frontend/           # Application Angular
+
 │   ├── src/
+
 │   │   ├── app/
+
 │   │   ├── assets/
+
 │   │   └── environments/
+
 │   ├── package.json
+
 │   └── angular.json
+
 ├── backend/            # API Spring Boot
+
 │   ├── src/
+
 │   │   ├── main/
+
 │   │   │   ├── java/
+
 │   │   │   └── resources/
+
 │   │   └── test/
+
 │   ├── pom.xml
+
 │   └── Dockerfile
+
 ├── docs/               # Documentation
+
 ├── docker-compose.yml
+
 └── README.md
+
 🚀 Installation et Configuration
+
 Prérequis
 
 Java 21+
+
 Node.js 18+
+
 PostgreSQL 15+
+
 Maven 3.8+
+
 Angular CLI 18+
 
+
 Installation rapide avec Docker
+
 bash# Cloner le repository
+
 git clone https://github.com/votre-username/finwise.git
+
 cd finwise
 
 # Lancer avec Docker Compose
